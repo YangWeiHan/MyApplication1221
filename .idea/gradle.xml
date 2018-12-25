@@ -9,6 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mvp1226" />
+            <option value="$PROJECT_DIR$/myapplication121" />
+            <option value="$PROJECT_DIR$/yangweihan1221" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

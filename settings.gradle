@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':yangweihan1221', ':mvp1226', ':myapplication121'

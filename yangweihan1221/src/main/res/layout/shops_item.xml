@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/shops_item_image"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shops_item_title"
+        app:layout_constraintLeft_toRightOf="@id/shops_item_image"
+        android:text="qqwewe"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shops_item_price"
+        app:layout_constraintTop_toBottomOf="@id/shops_item_title"
+        android:text="sadff"
+        app:layout_constraintLeft_toLeftOf="@id/shops_item_title"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/shops_item_price"
+        app:layout_constraintBottom_toBottomOf="@id/shops_item_image"
+        android:layout_marginLeft="100dp"
+        android:text="进入购物车"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
